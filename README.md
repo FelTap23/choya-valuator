@@ -1,6 +1,25 @@
-# choya-valuator
 Choyita valuacion
 
+
+1. turn on your virtual env. .venv :
+ source .venv/bin/activate 
+2. run the app : 
+ python -m uvicorn main:app --reload
+3. send a curl:
+
+curl -i -H "Content-Type: application/json" -X POST  http://localhost:8000/antecedentes -d '{
+    "solicitante" : "Fulanito de tal",
+    "perito_valuador" : "Ignacio Lopez",
+    "asesor_valuador" : "Maria Eugenia Lopez",
+    "fecha_del_avaluo" : "2023-10-26",
+    "tipo_inmueble_a_valuar" :"CASA_HABITACIÓN",
+    "regimen_de_propiedad" : "PRIVADA_INDIVIDUAL",
+    "propietario_del_inmueble" : "Maria Angelica de la concepcion Lopez Ramirez",
+    "proposito_de_avaluo" : "ESTIMAR_SU_VALOR_COMERCIAL",
+    "ubicacion_del_inmueble" : "Ildefonso Green",
+    "numero_de_cuenta_predial" : "5000-1234-4455-3455",
+    "numero_de_cuenta_de_agua" : "4569-5478"
+    }'
 
 Payload terreno
 curl -X POST \
