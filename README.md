@@ -9,7 +9,12 @@ Choyita valuacion
 
 curl -i -H "Content-Type: application/json" -X POST  http://localhost:8000/antecedentes -d '{
     "solicitante" : "Fulanito de tal",
-    "perito_valuador" : "Ignacio Lopez",
+    "perito_valuador" : { 
+      "nombre" : "Ignacio Lopez",
+      "credencial_bienes_inmuebles" : "392/015",
+      "registro_INADEJ" : "IND990305-4G50013",
+      "cedula_profesional" : "12069869"
+      },
     "asesor_valuador" : "Maria Eugenia Lopez",
     "fecha_del_avaluo" : "2023-10-26",
     "tipo_inmueble_a_valuar" :"CASA_HABITACIÓN",
