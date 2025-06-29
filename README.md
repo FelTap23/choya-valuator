@@ -57,3 +57,94 @@ curl -X POST \
     "servidumbres_resctricciones": null
   }
 }'
+
+
+Payload Urbanismo 
+curl -i -X POST -H "Content-Type: application/json"  "http://localhost:8000/urbanismo" -d '
+{
+  "clasificacion_de_la_zona": "habitacional_de_primer_orden",
+  "tipo_construccion_zona": "casas_habitacion_1_2_niveles_buena_calidad_locales_pb",
+  "saturacion": 75,
+  "uso_de_suelo": "habitacional",
+  "poblacion": "media",
+  "via_accesso": "Avenida Principal",
+
+  "servicios_publicos": {
+    "agua_potable": {
+      "codigo": "AG001",
+      "ponderacion": 0.9,
+      "comentario": "Servicio adecuado"
+    },
+    "drenaje_Y_alcantarillado": {
+      "codigo": "DR001",
+      "ponderacion": 0.8,
+      "comentario": "Funciona correctamente"
+    },
+    "red_electrificacion": {
+      "codigo": "EL001",
+      "ponderacion": 1.0,
+      "comentario": "Sin fallas"
+    },
+    "alumbrado": {
+      "codigo": "AL001",
+      "ponderacion": 0.85,
+      "comentario": "Bien iluminado"
+    },
+    "vialidades": {
+      "codigo": "VI001",
+      "ponderacion": 0.75,
+      "comentario": "Algunas calles con baches"
+    },
+    "banquetas": {
+      "codigo": "BA001",
+      "ponderacion": 0.7,
+      "comentario": "Algunas obstrucciones"
+    },
+    "pavimentos": {
+      "codigo": "PA001",
+      "ponderacion": 0.8,
+      "comentario": "En mantenimiento"
+    },
+    "camellones": {
+      "codigo": "CA001",
+      "ponderacion": 0.6,
+      "comentario": "Poco mantenimiento"
+    }
+  },
+
+  "otros_servicios": {
+    "red_telefonica": {
+      "codigo": "RT001",
+      "ponderacion": 0.9,
+      "comentario": "Buena cobertura"
+    },
+    "servicio_de_limpia": {
+      "codigo": "SL001",
+      "ponderacion": 0.95,
+      "comentario": "Recolección diaria"
+    },
+    "transporte_urbano": {
+      "codigo": "TU001",
+      "ponderacion": 0.8,
+      "comentario": "Frecuencia adecuada"
+    }
+  },
+
+  "equipamiento_urbano": {
+    "escuelas": {
+      "codigo": "ES001",
+      "ponderacion": 1.0,
+      "comentario": "Diversas opciones educativas"
+    },
+    "salud": {
+      "codigo": "SA001",
+      "ponderacion": 0.85,
+      "comentario": "Clínicas cercanas"
+    },
+    "comercial": {
+      "codigo": "CO001",
+      "ponderacion": 0.9,
+      "comentario": "Zonas comerciales accesibles"
+    }
+  }
+}'
