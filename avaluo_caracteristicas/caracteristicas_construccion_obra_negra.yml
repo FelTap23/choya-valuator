@@ -1,0 +1,169 @@
+AVALUO_CARACTERSITICAS_LIST:
+  BANQUETAS:
+    - id: null
+      titulo: "DE 1.00 mts. DE ANCHO DE CONCRETO HIDRÁULICO CON ÁREA JARDINADA"
+      descripcion: "Banquetas amplias de concreto con jardinería para zonas peatonales."
+      ponderacion: 0.1
+  CIMIENTOS:
+    - id: null
+      titulo: "SUPERFICIAL, PROBABLES EN MAMPOSTERÍA DE PIEDRA BRAZA CON REFUERZOS DE CONCRETO ARMADO"
+      descripcion: "Cimientos superficiales reforzados con mampostería y concreto armado."
+      ponderacion: 0.1
+    - id: null
+      titulo: "SUPERFICIAL, ZAPATAS CORRIDAS DE CONCRETO ARMADO"
+      descripcion: "Cimientos superficiales con zapatas corridas de concreto armado."
+      ponderacion: 0.1
+    - id: null
+      titulo: "SEMI-PROFUNDA, CAJÓN DE CIMENTACIÓN DE CONCRETO ARMADO"
+      descripcion: "Cimientos semi-profundos tipo cajón de concreto armado."
+      ponderacion: 0.1
+    - id: null
+      titulo: "PROFUNDOS, PILOTES DE CIMENTACIÓN DE CONCRETO ARMADO"
+      descripcion: "Cimientos profundos con pilotes de concreto armado para mayor soporte."
+      ponderacion: 0.1
+
+  ESTRUCTURA:
+    - id: null
+      titulo: "COLUMNAS, TRABES Y LOSAS DE CONCRETO ARMADO FORMANDO MARCOS RÍGIDOS"
+      descripcion: "Estructura rígida de concreto armado con columnas y trabes."
+      ponderacion: 0.1
+    - id: null
+      titulo: "A BASE DE MUROS DE CARGA CON REFUERZOS DE CONCRETO ARMADO"
+      descripcion: "Estructura con muros de carga reforzados en concreto armado."
+      ponderacion: 0.1
+    - id: null
+      titulo: "COLUMNAS, TRABES Y LOSAS DE CONCRETO ARMADO FORMANDO MARCOS RÍGIDOS ASÍ COMO MUROS DE CARGA"
+      descripcion: "Combinación de marcos rígidos y muros de carga en concreto armado."
+      ponderacion: 0.1
+    - id: null
+      titulo: "ESTRUCTURAL DE FIERRO TIPO DOS AGUAS"
+      descripcion: "Estructura metálica tipo dos aguas."
+      ponderacion: 0.1
+    - id: null
+      titulo: "ESTRUCTURAL DE FIERRO TIPO SIERRA"
+      descripcion: "Estructura metálica tipo sierra para techos."
+      ponderacion: 0.1
+    - id: null
+      titulo: "ESTRUCTURAL DE FIERRO TIPO MEDIO CAÑÓN"
+      descripcion: "Estructura metálica semicircular tipo medio cañón."
+      ponderacion: 0.1
+    - id: null
+      titulo: "AUTO SOPORTADA"
+      descripcion: "Estructura auto soportada sin necesidad de apoyos externos."
+      ponderacion: 0.1
+
+  MUROS:
+    - id: null
+      titulo: "TABIQUE ROJO RECOCIDO DE 14 CMS DE ESPESOR, JUNTEADO CON MORTERO CEMENTO-ARENA"
+      descripcion: "Muros de tabique rojo cocido, sólidos y tradicionales."
+      ponderacion: 0.1
+    - id: null
+      titulo: "DE TABIQUE GRIS, JUNTEADO CON MORTERO CEMENTO-ARENA"
+      descripcion: "Muros de tabique gris, comunes en construcción estándar."
+      ponderacion: 0.1
+    - id: null
+      titulo: "DE TABIQUE COMÚN, JUNTEADO CON MORTERO CEMENTO-ARENA"
+      descripcion: "Muros de tabique común con mortero cemento-arena."
+      ponderacion: 0.1
+    - id: null
+      titulo: "DE TABICÓN LIGERO, JUNTEADO CON MORTERO CEMENTO-ARENA"
+      descripcion: "Muros ligeros con tabicón y mortero."
+      ponderacion: 0.1
+    - id: null
+      titulo: "DE TABICÓN PESADO, JUNTEADO CON MORTERO CEMENTO-ARENA"
+      descripcion: "Muros pesados con tabicón para mayor resistencia."
+      ponderacion: 0.1
+    - id: null
+      titulo: "DE CONCRETO REFORZADO"
+      descripcion: "Muros de concreto reforzado para alta durabilidad."
+      ponderacion: 0.1
+
+  ENTREPISOS:
+    - id: null
+      titulo: "LOSA PLANA DE CONCRETO ARMADO"
+      descripcion: "Entrepisos sólidos con losa plana de concreto."
+      ponderacion: 0.1
+    - id: null
+      titulo: "LOSA PLANA Y ALIGUERADA DE CONCRETO ARMADO"
+      descripcion: "Entrepisos con losa ligera y aligerada de concreto armado."
+      ponderacion: 0.1
+    - id: null
+      titulo: "LOSA ACERO SOBRE ESTRUCTURA Y FIRME DE CONCRETO ARMADO"
+      descripcion: "Entrepisos con losa acero sobre estructura firme."
+      ponderacion: 0.1
+    - id: null
+      titulo: "VIGUETA Y BOVEDILLA CON FIRME DE CONCRETO"
+      descripcion: "Entrepisos con sistema de vigueta y bovedilla."
+      ponderacion: 0.1
+    - id: null
+      titulo: "NO TIENE"
+      descripcion: "Sin entrepisos."
+      ponderacion: 0.1
+
+  TECHOS:
+    - id: null
+      titulo: "LOSA PLANA DE CONCRETO ARMADO"
+      descripcion: "Techos sólidos de losa plana."
+      ponderacion: 0.1
+    - id: null
+      titulo: "LOSA PLANA Y ALIGUERADA DE CONCRETO ARMADO"
+      descripcion: "Techos ligeros con losa aligerada."
+      ponderacion: 0.1
+    - id: null
+      titulo: "LOSACERO SOBRE ESTRUCTURA Y FIRME DE CONCRETO ARMADO"
+      descripcion: "Techos con losacero y firme de concreto."
+      ponderacion: 0.1
+    - id: null
+      titulo: "LOSA A DOS AGUAS DE CONCRETO ARMADO"
+      descripcion: "Techos inclinados tipo dos aguas."
+      ponderacion: 0.1
+    - id: null
+      titulo: "VIGUETA Y BOVEDILLA CON FIRME DE CONCRETO"
+      descripcion: "Techos con sistema de vigueta y bovedilla."
+      ponderacion: 0.1
+    - id: null
+      titulo: "LÁMINA DE FIERRO"
+      descripcion: "Techos con lámina metálica."
+      ponderacion: 0.1
+    - id: null
+      titulo: "LÁMINA DE ASBESTO"
+      descripcion: "Techos con lámina de asbesto (material tradicional)."
+      ponderacion: 0.1
+    - id: null
+      titulo: "LÁMINA DE ZINTRO"
+      descripcion: "Techos con lámina de zintro galvanizado."
+      ponderacion: 0.1
+    - id: null
+      titulo: "LÁMINA DE FIBRA DE VIDRIO"
+      descripcion: "Techos con lámina translúcida de fibra de vidrio."
+      ponderacion: 0.1
+
+  AZOTEAS:
+    - id: null
+      titulo: "IMPERMEABILIZADAS CON PENDIENTES PLUVIALES"
+      descripcion: "Azoteas con impermeabilización y pendiente para drenaje."
+      ponderacion: 0.1
+    - id: null
+      titulo: "ENLADRILLADAS Y LECHADEADAS CON PENDIENTES PLUVIALES"
+      descripcion: "Azoteas con ladrillos y lechada para impermeabilización."
+      ponderacion: 0.1
+    - id: null
+      titulo: "RECUBIERTA CON TEJA DE BARRO"
+      descripcion: "Azoteas con cubierta de teja tradicional de barro."
+      ponderacion: 0.1
+    - id: null
+      titulo: "RECUBIERTA CON LADRILLO"
+      descripcion: "Azoteas cubiertas con ladrillo para mayor protección."
+      ponderacion: 0.1
+
+  BARDAS:
+    - id: null
+      titulo: "LAS PROPIAS DE LA CONSTRUCCIÓN"
+      descripcion: "Bardas integradas a la estructura original."
+      ponderacion: 0.1
+    - id: null
+      titulo: "DE TABIQUE ROJO RECOCIDO DE 14 CMS DE ESPESOR, CON CASTILLOS DE REFUERZO"
+      descripcion: "Bardas sólidas de tabique rojo con refuerzos."
+      ponderacion: 0.1
+    - id: null
+      titulo: "DE TABIQUE GRIS, CON CAST
