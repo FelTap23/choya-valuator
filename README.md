@@ -71,22 +71,22 @@ curl -i -X POST -H "Content-Type: application/json"  "http://localhost:8000/urba
 
   "servicios_publicos": {
     "agua_potable": {
-      "codigo": "AG001",
+      "codigo": "mediante_pipas_de_agua",
       "ponderacion": 0.9,
       "comentario": "Servicio adecuado"
     },
-    "drenaje_Y_alcantarillado": {
-      "codigo": "DR001",
+    "drenaje_y_alcantarillado": {
+      "codigo": "sumidero",
       "ponderacion": 0.8,
       "comentario": "Funciona correctamente"
     },
-    "red_electrificacion": {
-      "codigo": "EL001",
+    "red_de_electrificacion": {
+      "codigo": "suministro_a_traves_de_redes_aereas_postes_de_concreto_y_luminarias",
       "ponderacion": 1.0,
       "comentario": "Sin fallas"
     },
-    "alumbrado": {
-      "codigo": "AL001",
+    "alumbrado_publico": {
+      "codigo": "sistema_de_cableado_aereo_postes_de_concreto_y_luminarias_de_yodo_y_sodio",
       "ponderacion": 0.85,
       "comentario": "Bien iluminado"
     },
@@ -96,7 +96,7 @@ curl -i -X POST -H "Content-Type: application/json"  "http://localhost:8000/urba
       "comentario": "Algunas calles con baches"
     },
     "banquetas": {
-      "codigo": "BA001",
+      "codigo": "jardinada_ancha",
       "ponderacion": 0.7,
       "comentario": "Algunas obstrucciones"
     },
@@ -114,17 +114,17 @@ curl -i -X POST -H "Content-Type: application/json"  "http://localhost:8000/urba
 
   "otros_servicios": {
     "red_telefonica": {
-      "codigo": "RT001",
+      "codigo": "red_telefonica",
       "ponderacion": 0.9,
       "comentario": "Buena cobertura"
     },
-    "servicio_de_limpia": {
-      "codigo": "SL001",
+    "recoleccion_de_desechos": {
+      "codigo": "recoleccion_de_desechos",
       "ponderacion": 0.95,
       "comentario": "Recolección diaria"
     },
     "transporte_urbano": {
-      "codigo": "TU001",
+      "codigo": "transporte_urbano",
       "ponderacion": 0.8,
       "comentario": "Frecuencia adecuada"
     }
@@ -132,17 +132,17 @@ curl -i -X POST -H "Content-Type: application/json"  "http://localhost:8000/urba
 
   "equipamiento_urbano": {
     "escuelas": {
-      "codigo": "ES001",
+      "codigo": "escuelas",
       "ponderacion": 1.0,
       "comentario": "Diversas opciones educativas"
     },
     "salud": {
-      "codigo": "SA001",
+      "codigo": "salud",
       "ponderacion": 0.85,
       "comentario": "Clínicas cercanas"
     },
     "comercial": {
-      "codigo": "CO001",
+      "codigo": "comercial",
       "ponderacion": 0.9,
       "comentario": "Zonas comerciales accesibles"
     }

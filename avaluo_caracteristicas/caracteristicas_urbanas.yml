@@ -1,0 +1,307 @@
+AVALUO_CARACTERSITICAS:
+  clasificacion_de_la_zona:
+    habitacional_de_primer_orden:
+      titulo: "HABITACIONAL DE PRIMER ORDEN"
+      descripcion: "Zona residencial con alta calidad urbana"
+      ponderacion: 0.1
+    habitacional_de_segundo_orden:
+      titulo: "HABITACIONAL DE SEGUNDO ORDEN"
+      descripcion: "Zona residencial de nivel medio"
+      ponderacion: 0.1
+    habitacional_de_tercer_orden:
+      titulo: "HABITACIONAL DE TERCER ORDEN"
+      descripcion: "Zona residencial de nivel bajo"
+      ponderacion: 0.1
+    habitacional_de_interes_social:
+      titulo: "HABITACIONAL DE INTERES SOCIAL"
+      descripcion: "Zona destinada a vivienda economica"
+      ponderacion: 0.1
+    habitacional_popular:
+      titulo: "HABITACIONAL POPULAR"
+      descripcion: "Zona habitacional con servicios basicos"
+      ponderacion: 0.1
+    habitacional_residencial:
+      titulo: "HABITACIONAL RESIDENCIAL"
+      descripcion: "Zona de viviendas de alto nivel"
+      ponderacion: 0.1
+    comercial:
+      titulo: "COMERCIAL"
+      descripcion: "Zona destinada a actividades comerciales"
+      ponderacion: 0.1
+    de_oficinas:
+      titulo: "DE OFICINAS"
+      descripcion: "Zona con uso predominante para oficinas"
+      ponderacion: 0.1
+    industrial:
+      titulo: "INDUSTRIAL"
+      descripcion: "Zona con presencia de industria o manufactura"
+      ponderacion: 0.1
+    comercial_de_segundo_orden:
+      titulo: "COMERCIAL DE SEGUNDO ORDEN"
+      descripcion: "Zona comercial con menor actividad"
+      ponderacion: 0.1
+    habitacional_de_primer_orden_y_semi_comercial:
+      titulo: "HABITACIONAL DE PRIMER ORDEN Y SEMI COMERCIAL"
+      descripcion: "Zona residencial de alta calidad con comercio moderado"
+      ponderacion: 0.1
+    habitacional_de_segundo_orden_y_semi_comercial:
+      titulo: "HABITACIONAL DE SEGUNDO ORDEN Y SEMI COMERCIAL"
+      descripcion: "Zona residencial media con presencia comercial"
+      ponderacion: 0.1
+    habitacional_de_tercer_orden_y_semi_comercial:
+      titulo: "HABITACIONAL DE TERCER ORDEN Y SEMI COMERCIAL"
+      descripcion: "Zona residencial basica con comercio informal"
+      ponderacion: 0.1
+    habitacional_de_interes_social_y_semi_comercial:
+      titulo: "HABITACIONAL DE INTERES SOCIAL Y SEMI COMERCIAL"
+      descripcion: "Zona de vivienda economica con comercio"
+      ponderacion: 0.1
+    habitacional_popular_y_semi_comercial:
+      titulo: "HABITACIONAL POPULAR Y SEMI COMERCIAL"
+      descripcion: "Zona popular con actividad comercial moderada"
+      ponderacion: 0.1
+
+  tipo_construccion_zona:
+    casas_habitacion_1_2_niveles_regular_calidad:
+      titulo: "CASAS HABITACION DE 1 Y 2 NIVELES DE REGULAR CALIDAD"
+      descripcion: "Viviendas sencillas de uno o dos niveles"
+      ponderacion: 0.1
+    casas_habitacion_1_2_niveles_buena_calidad:
+      titulo: "CASAS HABITACION DE 1 Y 2 NIVELES DE BUENA CALIDAD"
+      descripcion: "Viviendas bien construidas de uno o dos niveles"
+      ponderacion: 0.1
+    casas_habitacion_1_2_niveles_regular_calidad_locales_pb:
+      titulo: "CASAS HABITACION DE 1 Y 2 NIVELES DE REGULAR CALIDAD CON LOCALES COMERCIALES EN P.B"
+      descripcion: "Viviendas sencillas con locales comerciales en planta baja"
+      ponderacion: 0.1
+    casas_habitacion_1_2_niveles_buena_calidad_locales_pb:
+      titulo: "CASAS HABITACION DE 1 Y 2 NIVELES DE BUENA CALIDAD CON LOCALES COMERCIALES EN P.B"
+      descripcion: "Viviendas de buena calidad con locales en planta baja"
+      ponderacion: 0.1
+    casas_habitacion_1_2_niveles_regular_calidad_edificios:
+      titulo: "CASAS HABITACION DE 1 Y 2 NIVELES DE REGULAR CALIDAD Y EDIFICIOS DE DEPARTAMENTOS"
+      descripcion: "Viviendas basicas combinadas con edificios de departamentos"
+      ponderacion: 0.1
+    casas_habitacion_1_2_niveles_buena_calidad_edificios:
+      titulo: "CASAS HABITACION DE 1 Y 2 NIVELES DE BUENA CALIDAD Y EDIFICIOS DE DEPARTAMENTOS"
+      descripcion: "Viviendas buenas junto a edificios de departamentos"
+      ponderacion: 0.1
+    casas_habitacion_regular_calidad_edificios_comercios:
+      titulo: "CASAS HABITACION DE 1 Y 2 NIVELES DE REGULAR CALIDAD, EDIFICIOS DE DEPARTAMENTOS Y COMERCIOS"
+      descripcion: "Zona mixta con viviendas, edificios y comercios"
+      ponderacion: 0.1
+    casas_habitacion_buena_calidad_edificios_comercios:
+      titulo: "CASAS HABITACION DE 1 Y 2 NIVELES DE BUENA CALIDAD, EDIFICIOS DE DEPARTAMENTOS Y COMERCIOS"
+      descripcion: "Zona mixta de buena calidad residencial y comercial"
+      ponderacion: 0.1
+    edificio_departamentos_buena_calidad:
+      titulo: "EDIFICIO DE DEPARTAMENTOS DE BUENA CALIDAD"
+      descripcion: "Edificios multifamiliares con buena construccion"
+      ponderacion: 0.1
+
+  uso_de_suelo:
+    habitacional:
+      titulo: "HABITACIONAL"
+      descripcion: "Uso destinado a viviendas"
+      ponderacion: 0.1
+    comercial:
+      titulo: "COMERCIAL"
+      descripcion: "Uso destinado al comercio"
+      ponderacion: 0.1
+    oficinas:
+      titulo: "OFICINAS"
+      descripcion: "Uso para oficinas administrativas y servicios"
+      ponderacion: 0.1
+    industrial:
+      titulo: "INDUSTRIAL"
+      descripcion: "Uso destinado a procesos industriales"
+      ponderacion: 0.1
+    habitacional_mixto:
+      titulo: "HABITACIONAL MIXTO"
+      descripcion: "Combinacion de vivienda y otros usos"
+      ponderacion: 0.1
+    sin_uso_destinado:
+      titulo: "SIN USO DESTINADO"
+      descripcion: "Sin uso especifico definido"
+      ponderacion: 0.1
+
+  poblacion:
+    normal:
+      titulo: "NORMAL"
+      descripcion: "Densidad poblacional promedio"
+      ponderacion: 0.1
+    media:
+      titulo: "MEDIA"
+      descripcion: "Densidad poblacional intermedia"
+      ponderacion: 0.1
+    escasa:
+      titulo: "ESCASA"
+      descripcion: "Baja densidad de poblacion"
+      ponderacion: 0.1
+
+
+
+SERVICIOS:
+  agua_potable:
+    red_de_distribucion_y_suministro_mediante_tomas_domiciliarias:
+      titulo: "RED DE DISTRIBUCION Y SUMINISTRO MEDIANTE TOMAS DOMICILIARIAS"
+      descripcion: "Agua potable distribuida directamente a domicilios."
+      ponderacion: 0.1
+    mediante_pipas_de_agua:
+      titulo: "MEDIANTE PIPAS DE AGUA"
+      descripcion: "Suministro de agua mediante camiones cisterna."
+      ponderacion: 0.1
+    pozo_medio:
+      titulo: "POZO MEDIO"
+      descripcion: "Captacion de agua de pozos poco profundos."
+      ponderacion: 0.1
+    pozo_profundo:
+      titulo: "POZO PROFUNDO"
+      descripcion: "Captacion de agua de pozos de gran profundidad."
+      ponderacion: 0.1
+
+  drenaje_y_alcantarillado:
+    redes_de_recuperacion_de_aguas_negras_y_pluviales:
+      titulo: "REDES DE RECUPERACION DE AGUAS NEGRAS Y PLUVIALES"
+      descripcion: "Sistema para manejo de aguas residuales y pluviales."
+      ponderacion: 0.1
+    fosa_septica:
+      titulo: "FOSA SEPTICA"
+      descripcion: "Sistema individual de tratamiento de aguas negras."
+      ponderacion: 0.1
+    sumidero:
+      titulo: "SUMIDERO"
+      descripcion: "Estructura para infiltracion de aguas residuales."
+      ponderacion: 0.1
+    biodigestor:
+      titulo: "BIODIGESTOR"
+      descripcion: "Sistema biologico para tratamiento de aguas negras."
+      ponderacion: 0.1
+    no_tiene:
+      titulo: "NO TIENE"
+      descripcion: "Ausencia de sistema de drenaje y alcantarillado."
+      ponderacion: 0.1
+
+  red_de_electrificacion:
+    suministro_a_traves_de_redes_aereas_postes_de_concreto_y_luminarias:
+      titulo: "SUMINISTRO A TRAVES DE REDES AEREAS, POSTES DE CONCRETO Y LUMINARIAS"
+      descripcion: "Electricidad por redes aereas con postes y luminarias."
+      ponderacion: 0.1
+    suministro_subterraneo:
+      titulo: "SUMINISTRO SUBTERRANEO"
+      descripcion: "Electricidad por cableado subterraneo."
+      ponderacion: 0.1
+    no_tiene:
+      titulo: "NO TIENE"
+      descripcion: "Sin suministro electrico."
+      ponderacion: 0.1
+    paneles_solares:
+      titulo: "PANELES SOLARES"
+      descripcion: "Suministro electrico mediante energia solar."
+      ponderacion: 0.1
+
+  alumbrado_publico:
+    sistema_de_cableado_aereo_postes_de_concreto_y_luminarias_de_yodo_y_sodio:
+      titulo: "SISTEMA DE CABLEADO AEREO, POSTES DE CONCRETO Y LUMINARIAS DE YODO Y SODIO"
+      descripcion: "Alumbrado publico con cableado aereo y luminarias tradicionales."
+      ponderacion: 0.1
+    suministro_subterraneo:
+      titulo: "SUMINISTRO SUBTERRANEO"
+      descripcion: "Alumbrado publico con cableado subterraneo."
+      ponderacion: 0.1
+    no_tiene:
+      titulo: "NO TIENE"
+      descripcion: "Sin alumbrado publico."
+      ponderacion: 0.1
+  banquetas:
+    jardinada_ancha:
+      titulo: "JARDINADA ANCHA"
+      descripcion: "Banqueta amplia con area jardinada"
+      ponderacion: 0.1
+    jardinada_chica:
+      titulo: "JARDINADA CHICA"
+      descripcion: "Banqueta angosta con area jardinada"
+      ponderacion: 0.1
+    ancha:
+      titulo: "ANCHA"
+      descripcion: "Banqueta amplia sin jardin"
+      ponderacion: 0.1
+    regular:
+      titulo: "REGULAR"
+      descripcion: "Banqueta de tamaño promedio sin jardin"
+      ponderacion: 0.1
+    angosta:
+      titulo: "ANGOSTA"
+      descripcion: "Banqueta de tamaño reducido sin jardin"
+      ponderacion: 0.1
+
+  pavimentos:
+    adoquin:
+      titulo: "ADOQUIN"
+      descripcion: "Pavimento con bloques prefabricados de concreto"
+      ponderacion: 0.1
+    asfalto:
+      titulo: "ASFALTO"
+      descripcion: "Pavimento de concreto asfaltico"
+      ponderacion: 0.1
+    hidraulico:
+      titulo: "HIDRAULICO"
+      descripcion: "Pavimento de concreto hidraulico"
+      ponderacion: 0.1
+    terraceria:
+      titulo: "TERRACERIA"
+      descripcion: "Vialidad sin pavimentar, solo tierra compactada"
+      ponderacion: 0.1
+    empedrado:
+      titulo: "EMPEDRADO"
+      descripcion: "Pavimento con piedras colocadas manualmente"
+      ponderacion: 0.1
+
+  camellones:
+    jardinado:
+      titulo: "JARDINADO"
+      descripcion: "Camellon con areas verdes y vegetacion"
+      ponderacion: 0.1
+    concreto:
+      titulo: "CONCRETO"
+      descripcion: "Camellon construido con concreto"
+      ponderacion: 0.1
+
+
+OTROS_SERVICIOS:
+  red_telefonica:
+    red_telefonica:
+      titulo: "RED TELEFONICA"
+      descripcion: "Servicio de comunicacion mediante red telefonica fija o movil."
+      ponderacion: 0.1
+
+  recoleccion_de_desechos:
+    recoleccion_de_desechos:
+      titulo: "RECOLECCION DE DESECHOS"
+      descripcion: "Servicio de recoleccion y disposicion de residuos solidos urbanos."
+      ponderacion: 0.1
+
+  transporte_urbano:
+    transporte_urbano:
+      titulo: "TRANSPORTE URBANO"
+      descripcion: "Servicio de transporte publico dentro del area urbana."
+      ponderacion: 0.1
+
+EQUIPAMIENTO_URBANO:
+  escuelas:
+    escuelas:
+      titulo: "ESCUELAS"
+      descripcion: "Infraestructura educativa basica o media dentro del area urbana."
+      ponderacion: 0.1
+
+  salud:
+    salud:
+      titulo: "SALUD"
+      descripcion: "Instalaciones o servicios dedicados a la atencion medica publica o privada."
+      ponderacion: 0.1
+
+  comercial:
+    comercial:
+      titulo: "COMERCIAL"
+      descripcion: "Presencia de comercio local, como tiendas, mercados o servicios."
+      ponderacion: 0.1
